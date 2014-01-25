@@ -1,0 +1,30 @@
+{
+  "name": "karma-proclaim",
+  "description": "Proclaim for Karma",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "proclaim",
+    "mocha",
+    "assert"
+  ],
+  "version": "0.0.1",
+  "author": "Bradley C Bailey <brad@memoryleak.org>",
+  "main": "./index.js",
+  "license": "MIT",
+  "homepage": "http://bcbailey.github.io/karma-proclaim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcbailey/karma-proclaim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcbailey/karma-proclaim/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "proclaim": "~2.0.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  }
+}
