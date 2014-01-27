@@ -1,16 +1,16 @@
 var path = require('path');
 
-function pattern(file) {
+var pattern = function(file) {
   return {
     pattern: file,
     included: true,
     served: true,
     watched: false
   };
-}
+};
 
 var framework = function(files) {
-  files.unshift(pattern(path.resolve(require.resolve('proclaim'), '../lib/proclaim.js')));
+  files.unshift(pattern(path.resolve(require.resolve('proclaim'))));
 };
 
 framework.$inject = ['config.files'];
