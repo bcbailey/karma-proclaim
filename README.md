@@ -19,15 +19,15 @@ Or from Github:
 $ npm install 'git+https://github.com/bcbailey/karma-proclaim.git' --save-dev
 ```
 
-Add `chai` to the `frameworks` key in your Karma configuration:
+Add `proclaim` to the `frameworks` key in your Karma configuration:
 
 ```javascript
 module.exports = function(config) {
   config.set({
-    # frameworks to use
+    // frameworks to use
     frameworks: [ 'mocha', 'proclaim' ]
 
-    # ...
+    // ...
   });
 });
 ```

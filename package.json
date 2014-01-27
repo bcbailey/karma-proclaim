@@ -1,6 +1,6 @@
 {
   "name": "karma-proclaim",
-  "description": "Proclaim for Karma",
+  "description": "Proclaim assertion library for Karma",
   "keywords": [
     "karma",
     "karma-plugin",
