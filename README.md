@@ -26,7 +26,7 @@ $ npm install 'git+https://github.com/bcbailey/karma-proclaim.git' --save-dev
 
 Add `proclaim` to the `frameworks` key in your Karma configuration:
 
-```javascript
+```js
 module.exports = function(config) {
   config.set({
     // frameworks to use
@@ -41,7 +41,7 @@ module.exports = function(config) {
 Usage
 -----
 
-```javascript
+```js
 describe('mocha tests with proclaim', function() {
   it('should expose proclaim', function() {
     proclaim.ok('everything', 'everything is ok');
