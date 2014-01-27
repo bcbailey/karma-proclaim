@@ -5,8 +5,9 @@ karma-proclaim
 
 Proclaim is a simple assertion library for server and client side JavaScript.
 It can be used with most test frameworks and is compatible with IE6+. Proclaim
-is an attempt to achieve the simplicity of [Node.js assert][node-assert] with
-the extra assertions of [Chai][chai].
+is an attempt to achieve the simplicity of
+[Node.js assert](http://nodejs.org/api/assert.html) with the extra assertions
+of [Chai](http://chaijs.com/).
 
 
 Installation
