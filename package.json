@@ -8,7 +8,7 @@
     "mocha",
     "assert"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Bradley C Bailey <brad@memoryleak.org>",
   "main": "./index.js",
   "license": "MIT",
